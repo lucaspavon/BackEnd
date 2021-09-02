@@ -1,0 +1,34 @@
+// Mostrar un Hola Mundo
+<?php
+  echo ("Hola Mundo")
+?>
+
+<?php
+// Crea dos variables y sumarlas y muestra el resultado.
+$obj1 = 1;
+$obj2 = 2;
+
+$resultado = ($obj1 + $obj2);
+
+  echo ($resultado)
+?>
+
+<?php
+// Muestra los números del 1 al 10 en linea.
+$numero = 1;
+  while ($numero < 11){
+    echo ($numero . " ");
+    
+    $numero++;
+}
+
+?>
+<?php
+// Muestra los números del 1 al 10 en linea.
+  for ($numero = 1; $numero < 11; $numero++){
+    echo ($numero . " ");
+    
+}
+
+?>
+
